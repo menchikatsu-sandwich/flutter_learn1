@@ -1,3 +1,0 @@
-# flutter_learn1
-
-FLUTTER PROJECT 1 PPB SEMESTER 4
