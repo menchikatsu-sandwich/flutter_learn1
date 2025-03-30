@@ -1,6 +1,6 @@
 # flutter_application_1
 
-A new Flutter project.
+FLUTTER PROJECT 1 SEMESTER 4
 
 ## Getting Started
 
