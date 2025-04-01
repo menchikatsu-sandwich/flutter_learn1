@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_application_1/homeRow.dart';
-import 'package:flutter_application_1/homeStack.dart';
+import 'package:flutter_application_1/UI_2/homeStack.dart';
 
 void main() {
   runApp(MyApp());
