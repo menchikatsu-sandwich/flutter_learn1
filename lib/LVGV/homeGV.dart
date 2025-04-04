@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomeGV extends StatelessWidget {
+  const HomeGV({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +14,7 @@ class HomeGV extends StatelessWidget {
 }
 
 class GridViewScreen extends StatelessWidget {
-  const GridViewScreen({Key? key}) : super(key: key);
+  const GridViewScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

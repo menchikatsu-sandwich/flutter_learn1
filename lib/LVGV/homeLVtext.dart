@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomeLVtext extends StatelessWidget {
+  const HomeLVtext({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
