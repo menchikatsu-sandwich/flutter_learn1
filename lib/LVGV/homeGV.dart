@@ -31,8 +31,8 @@ class GridViewScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
-          crossAxisSpacing: 16.0,
-          mainAxisSpacing: 16.0,
+          crossAxisSpacing: 260.0,
+          mainAxisSpacing: 260.0,
         ),
         itemCount: 4,
         itemBuilder: (context, index) {
@@ -41,6 +41,20 @@ class GridViewScreen extends StatelessWidget {
           );
         },
       ),
+        // body: GridView(
+        //   padding: const EdgeInsets.all(16.0),
+        //   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        //     crossAxisCount: 2,
+        //     crossAxisSpacing: 260.0,
+        //     mainAxisSpacing: 260.0,
+        //   ),
+        //   children: [
+        //     FlutterLogo()
+        //     FlutterLogo(),
+        //     FlutterLogo(),
+        //     FlutterLogo(),
+        //   ],
+        // ),
     );
   }
 }

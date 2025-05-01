@@ -10,9 +10,9 @@ class HomeColumn extends StatelessWidget {
       body : Container(
         color: Colors.yellow,
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.end,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Text('Santo Evorius Jehu', style: TextStyle(fontSize: 30)),
               Text('2315354054', style: TextStyle(fontSize: 30)),

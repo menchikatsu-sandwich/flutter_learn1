@@ -13,6 +13,9 @@ class HomeElevatedButton extends StatelessWidget {
           onPressed: () {
             print('Halo, Santo Evo!');
           },
+          onLongPress: () {
+            print('2315354054');
+          },
           style: ElevatedButton.styleFrom(
             backgroundColor:
               Colors.red,
@@ -20,8 +23,7 @@ class HomeElevatedButton extends StatelessWidget {
               Colors.yellow,
               // padding: EdgeInsets.fromLTRB(30, 16, 30, 16),
           ),
-          child: const Text('Klik disini mas!'
-          ),
+          child: const Text('Klik disini mas!'),
         ),
       )
     );

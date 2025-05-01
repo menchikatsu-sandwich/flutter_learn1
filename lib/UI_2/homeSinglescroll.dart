@@ -7,7 +7,7 @@ class HomeSinglescroll extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.black,),
-      body : SingleChildScrollView(
+      body : Center (
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             mainAxisAlignment: MainAxisAlignment.start,

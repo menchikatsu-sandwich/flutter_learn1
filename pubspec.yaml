@@ -67,6 +67,13 @@ flutter:
     - assets/arm.webp
     - assets/mclaren.webp
     - assets/bwt.webp
+    - assets/sanssat.jpg
+    - assets/sansgit.jpg
+    - assets/sans-profile.png
+    - assets/King-profile.png
+    - assets/bob-profile.png
+    - assets/dwikz-profile.png
+    - assets/aditt-profile.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
