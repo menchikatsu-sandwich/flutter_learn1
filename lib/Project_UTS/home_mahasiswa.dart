@@ -60,14 +60,18 @@ class JadwalPage extends StatelessWidget {
     "Selasa - Kecerdasan Buatan",
     "Rabu - Pemrograman Perangkat Bergerak",
     "Kamis - Digital Image Processing",
-    "Jumat - Sistem Informasi Pariwisata"
+    "Jumat - Sistem Informasi Pariwisata",
+    "Sabtu - Pemrograman Perangkat Bergerak",
+    "Minggu - Kecerdasan Buatan",
   ];
 
   final List<Color> warnaHari = [
     Colors.red,
+    Colors.orange,
     Colors.yellow,
     Colors.green,
     Colors.blue,
+    Colors.indigo,
     Colors.purple,
   ];
 
@@ -109,13 +113,13 @@ class GaleriPage extends StatelessWidget {
   final List<String> gambar = [
     'assets/sansgit.jpg',
     'assets/sanssat.jpg',
+    'assets/King-profile.png',
     'assets/sans-profile.png',
     'assets/aditt-profile.png',
-    'assets/dwikz-profile.png',
     'assets/King-profile.png',
+    'assets/dwikz-profile.png',
     'assets/bob-profile.png',
-    'assets/haas.webp',
-    'assets/redbull.webp',
+    'assets/King-profile.png',
   ];
 
   @override

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Project_UTS/home_mahasiswa.dart';
-// import 'package:flutter_application_1/LVGV/homeGV.dart';
-// import 'package:flutter_application_1/LVGV/homeLVtext.dart';
-// import 'package:flutter_application_1/UI_3/homeBSM.dart';
-// import 'package:flutter_application_1/UI_3/homeNavpush.dart';
+// import 'package:flutter_application_1/FORM/form2.dart';
+import 'package:flutter_application_1/Modul_Navigator/homeNavButton.dart';
+// import 'package:flutter_application_1/Modul_Navigator/homeNavButton.dart';
+// import 'package:flutter_application_1/ModulPegawai/ui/list_pegawai.dart';
+// import 'package:flutter_application_1/Modul_Navigator/homeNavDrawer.dart';
+// import 'package:flutter_application_1/ModulSQL/list_kontak.dart';
+// import 'package:flutter_application_1/FORM/form2.dart';
+
 
 
 
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeMahasiswa(),
+      home: HomeNavButton(),
     );
   }
 }
