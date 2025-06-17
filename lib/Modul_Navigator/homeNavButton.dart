@@ -42,7 +42,7 @@ class _HomeNavButtonState extends State<HomeNavButton> {
           ),
         ],
         currentIndex: _selectedNavbar,
-        selectedItemColor: Colors.green,
+        selectedItemColor: Colors.blueAccent,
         unselectedItemColor: Colors.grey,
         showSelectedLabels: true,
         onTap: _changeSelectedNavBar,

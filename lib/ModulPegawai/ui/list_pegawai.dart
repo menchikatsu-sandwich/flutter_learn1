@@ -107,7 +107,7 @@ class _ListPegawaiPageState extends State<ListPegawaiPage> {
     var list = await db.getAllPegawai();
     setState(() {
       listPegawai.clear();
-      list!.forEach((pegawai) {
+      list.forEach((pegawai) {
         listPegawai.add(Pegawai.fromMap(pegawai));
       });
     });
